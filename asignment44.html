@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        form{
+            left:40%;
+            top: 50%;
+            height: auto;
+            width: 130px;
+           font-family: 'Trebuchet MS';
+           border: 1px;
+           border-radius: 10px;
+           position:fixed;
+           background-color: rgb(0, 1, 10);
+           margin: 10px 10px 10px 10px;
+           padding: 20px 20px 20px 20px;
+           box-shadow:none;
+           translate: (50%,50%);
+
+        }
+        form:hover{
+            background-color: rgb(251, 246, 241);
+            transition-duration: 1s;
+            transition-delay:2;
+        }
+        span{
+            font-size: 20px;
+            display: block;
+            position: center;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 10px;
+            background-color: aliceblue;
+            
+        }
+input{
+            padding: 1px;
+            margin: 1px;
+            width: 100%;
+            display: block;}
+        label{
+            position:block;}
+        button{
+            margin-top: 30px;
+            position:none;
+            top: 90%;
+          left: 30%;
+            text-align: center;
+            color:rgb(246, 240, 240);
+            border: 1px;
+            border-radius: 3px;
+            font-size:20px ;
+            cursor:pointer; }
+        button:hover{
+            background-color: rgb(230, 94, 121);
+          transition: 1s;}
+        </style></head><body><form action="login"><span>login</span>
+<label for="name">name:</label><input type="text" name="name" id="name" required>    
+<label for="email">email:</label><input type="email" name="email " id="email">
+<label for="password">password:</label><input type="password" name="password" id="password">
+  <span><label for="submit"><button>submit</button></label></span> </form></body></html>
